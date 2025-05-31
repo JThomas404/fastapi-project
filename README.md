@@ -79,7 +79,7 @@ Modern software often requires APIs that are flexible, scalable, and easy to int
 
 ```
 fastapi-project/
-├── main.py
+├── app/
 │   ├── main.py
 │   └── models.py
 └── README.md
