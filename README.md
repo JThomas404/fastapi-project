@@ -79,9 +79,11 @@ Modern software often requires APIs that are flexible, scalable, and easy to int
 
 ```
 fastapi-project/
-├── main.py            # Main app file with route logic
-├── models.py          # Pydantic model definitions
-└── requirements.txt  # Dependencies (FastAPI, Uvicorn)
+├── main.py
+│   ├── main.py
+│   └── models.py
+└── README.md
+
 ```
 
 ---
