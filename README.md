@@ -124,18 +124,19 @@ Visit [http://localhost:8000/docs](http://localhost:8000/docs) to access the Swa
 
 ### Endpoints
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/` | Root endpoint |
-| GET | `/todos` | Get all todos |
-| GET | `/todos/{todo_id}` | Get a specific todo |
-| POST | `/todos` | Create a new todo |
-| PUT | `/todos/{todo_id}` | Update a todo |
-| DELETE | `/todos/{todo_id}` | Delete a todo |
+| Method | Endpoint           | Description         |
+| ------ | ------------------ | ------------------- |
+| GET    | `/`                | Root endpoint       |
+| GET    | `/todos`           | Get all todos       |
+| GET    | `/todos/{todo_id}` | Get a specific todo |
+| POST   | `/todos`           | Create a new todo   |
+| PUT    | `/todos/{todo_id}` | Update a todo       |
+| DELETE | `/todos/{todo_id}` | Delete a todo       |
 
 ### Request/Response Examples
 
 **Create Todo (POST /todos)**
+
 ```json
 // Request
 {
@@ -150,6 +151,7 @@ Visit [http://localhost:8000/docs](http://localhost:8000/docs) to access the Swa
 ```
 
 **Get All Todos (GET /todos)**
+
 ```json
 // Response
 {
@@ -163,6 +165,7 @@ Visit [http://localhost:8000/docs](http://localhost:8000/docs) to access the Swa
 ```
 
 **Get Single Todo (GET /todos/1)**
+
 ```json
 // Response
 {
@@ -178,3 +181,9 @@ Visit [http://localhost:8000/docs](http://localhost:8000/docs) to access the Swa
 ## Conclusion
 
 This FastAPI ToDo project demonstrates my proficiency in modern Python web development, showcasing technical skills in RESTful API design, type-safe programming with Python type hints, asynchronous programming concepts, and modern frameworks like FastAPI, Pydantic, and Uvicorn. Beyond the technical implementation, this project reflects my professional competencies in writing clean, maintainable code architecture, following industry best practices for API development, and my ability to quickly learn and implement new technologies while maintaining excellent documentation standards. This project represents my commitment to staying current with modern development tools and delivering production-ready code that follows industry standards.
+
+---
+
+**Related Project:** For a production-ready version of this FastAPI application with Docker containerisation and security best practices, see [docker-security-falcon](https://github.com/JThomas404/docker-security-falcon).
+
+---
