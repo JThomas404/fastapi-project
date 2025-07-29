@@ -184,6 +184,6 @@ This FastAPI ToDo project demonstrates my proficiency in modern Python web devel
 
 ---
 
-**Related Project:** For a production-ready implementation featuring Docker containerization, security best practices, and CI/CD integration with GitHub Actions, see the [docker-security-falcon](https://github.com/JThomas404/docker-security-falcon) repository.
+**Related Project:** For a production-ready implementation featuring Docker containerisation, security best practices, and CI/CD integration with GitHub Actions, see the [docker-security-falcon](https://github.com/JThomas404/docker-security-falcon) repository.
 
 ---
